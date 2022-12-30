@@ -13,7 +13,6 @@ const userReducer = (state, action) => {
         users: action.payload,
         featureProducts: featureData,
       };
-
     case "API_ERROR":
       return {
         ...state,
