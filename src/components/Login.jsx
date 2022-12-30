@@ -16,7 +16,6 @@ const Login = () => {
   const handleInputChange = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
   };
-
   const navigate = useNavigate();
   const handleFormSubmit = (event) => {
     event.preventDefault();
