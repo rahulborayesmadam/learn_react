@@ -1,17 +1,9 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./components/Login";
-import Welcome from "./components/Welcome";
+import Routing from "./routes/Routing";
 
 const App = () => {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/profile" element={<Welcome />} />
-        </Routes>
-      </BrowserRouter>
+      <Routing />
     </>
   );
 };
